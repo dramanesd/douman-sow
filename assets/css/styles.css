@@ -1,0 +1,377 @@
+@import 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Roboto&display=swap';
+.primary-btn {
+  width: 250px;
+  font-weight: bold;
+  padding: 0.7rem 3rem;
+  border-style: none;
+  border-radius: 5px;
+  color: #F9F9FE;
+  background-color: #707070;
+  box-shadow: 0px 8px 15px rgba(142, 191, 35, 0.562);
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Oswald, sans-serif;
+}
+
+.primary-btn {
+  background-color: #8CBF23;
+}
+
+.row {
+  margin: 0;
+}
+
+.navbar-light .navbar-brand {
+  color: #8CBF23;
+}
+.navbar-light .navbar-brand:hover {
+  color: #8CBF23;
+}
+.navbar-light .navbar-brand:focus {
+  color: #8CBF23;
+}
+
+.bg-dark {
+  background-color: #04081D !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #8CBF23;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #8CBF23;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #8CBF23;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #F9F9FE;
+  padding: 8px 20px;
+}
+
+.navbar-light .navbar-toggler {
+  color: #F9F9FE;
+  border-color: #8CBF23;
+}
+
+.navbar-toggler {
+  background-color: #8CBF23;
+}
+
+.active {
+  color: #8CBF23;
+}
+
+.main-hero {
+  height: 500px;
+}
+
+.secondary-hero {
+  height: 500px;
+  margin-bottom: 3rem;
+}
+
+.hero-block-content {
+  padding: 7rem 10rem;
+}
+
+.hero-block {
+  background-color: #F9F9FE;
+}
+
+.hero-block-content h3 {
+  margin-bottom: 1.5rem;
+}
+
+.hero-block-content p {
+  margin-bottom: 3rem;
+}
+
+.hero-block-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.hero-block-image .hero-img {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.hero-single-content {
+  height: 500px;
+  background-color: #F9F9FE;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.hero-single-content h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-single-content p {
+  text-align: center;
+}
+
+.top-rated {
+  padding: 3rem 0;
+}
+
+.top-rated h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card-item {
+  margin: 1rem 0;
+}
+
+.card-item img {
+  margin-bottom: 1rem;
+}
+
+.favorite-menu {
+  padding: 2rem 0;
+}
+
+.favorite-menu h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.menu-table {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.menu-table table, table thead th, table tbody th, table tbody td {
+  border: 1px solid #04081D !important;
+  text-align: center;
+}
+
+#galeries {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#galeries .grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+#galeries ul {
+  list-style: none;
+}
+
+#galeries .grid li {
+  height: 350px;
+  padding: 20px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+#galeries .grid li.large {
+  flex-basis: 50%;
+}
+
+#galeries .grid li.medium {
+  flex-basis: 40%;
+}
+
+#galeries .grid li.small {
+  flex-basis: 30%;
+}
+
+#galeries h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.make-reservation {
+  padding: 2rem 0;
+}
+
+.make-reservation h1 {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.form-container {
+  width: 50%;
+  background-color: #F9F9FE;
+  padding: 5rem;
+  margin: 0 auto;
+}
+
+.reservation-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reservation-form input, select {
+  color: #707070;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #707070;
+}
+
+.reservation-form button {
+  margin-top: 3rem;
+}
+
+.select-style {
+  display: block;
+  padding: 0.5rem 1rem;
+  border-radius: 0rem;
+  box-sizing: border-box;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  background-image: url("/assets/img/select-bg.png");
+  background-repeat: no-repeat, repeat;
+  background-position: right 0.2em top 50%, 0 0;
+  background-size: cover;
+  line-height: 1.3;
+}
+
+.select-style::-ms-expand {
+  display: none;
+}
+
+.book-a-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.floating-img {
+  margin: auto auto;
+}
+
+.floating-img img {
+  width: 400px;
+  height: 500px;
+}
+
+.book-a-table h1 {
+  margin-bottom: 2rem;
+}
+
+.book-a-table p {
+  margin-bottom: 2rem;
+}
+
+.our-story {
+  height: 500px;
+}
+
+footer {
+  background-color: #04081D;
+  margin-top: 4rem;
+}
+
+.footer-content {
+  padding: 2rem 0;
+  color: #707070;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-content p span:hover {
+  color: #04081D;
+}
+
+.footer-content p span {
+  cursor: pointer;
+  padding: 2px 5px;
+  background-color: #F9F9FE;
+}
+
+/*  Media Queries  */
+@media (min-width: 300px) and (max-width: 576px) {
+  .main-hero {
+    height: 800px;
+  }
+
+  .hero-block-image .hero-img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+
+  #galeries .grid li.large, #galeries .grid li.medium, #galeries .grid li.small {
+    flex-basis: 100%;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form-container {
+    width: 100%;
+    padding: 3rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .main-hero {
+    height: 800px;
+  }
+
+  #galeries .grid li.large, #galeries .grid li.medium, #galeries .grid li.small {
+    flex-basis: 50%;
+  }
+
+  .form-container {
+    width: 80%;
+    padding: 3rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .main-hero {
+    height: 800px;
+  }
+
+  .hero-block-content {
+    padding: 2rem 4rem;
+  }
+
+  .book-a-table {
+    flex-direction: column;
+  }
+
+  .floating-img img {
+    margin-bottom: 2rem;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .hero-block-content {
+    padding: 7rem 4rem;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
